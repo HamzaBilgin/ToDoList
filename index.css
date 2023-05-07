@@ -1,0 +1,116 @@
+/* form wrapper css başlangıcı */
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-wrapper form {
+    padding: 10px;
+    display: inline-block;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    border: 0;
+    outline: none;
+    min-width: 300px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+
+  .form-wrapper form button {
+    padding: 10px;
+    border: 0;
+    background-color: transparent;
+    color: #33a52b;
+  }
+
+  .form-content {
+    display: inline-block;
+    background-color: #f1f1f1;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+  .buttons{
+    margin: auto;
+    text-align: center;
+  }
+/* form wrapper css sonu */
+/* tasks css başlangıcı */
+
+.tasks_task{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f1f1f1;
+}
+.tasks ul {
+  padding-inline-start: 0px!important;
+}
+
+.tasks ul li{
+    list-style-type: none;
+   margin : 10px
+}
+
+.tasks .tasks_task .tasks_task_text{ 
+    padding-left: 20px;
+}
+
+.tasks .tasks_task .tasks_task_tamamlandi{
+    
+    text-align: center;
+}
+
+.tasks_task > div {
+ 
+    display: inline;
+    margin: 10px;
+
+}
+
+/* tasks css sonu */
+/* Buttons css baslangıcı */
+
+.buttons button{
+    padding: 20px;
+    margin: 20px;
+}
+
+.buttons .buttons_tamamlandi{
+   width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 480px) {
+    .task {
+      width: 90%;
+    }
+    .form-content {
+      display: flex;
+      width: 90%;
+    }
+    input[type="text"] {
+      min-width: auto;
+      width: 100%;
+    }
+  }
