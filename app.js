@@ -73,9 +73,9 @@ function addCheckboxListeners() {
   checkboxes.forEach((checkbox, index) => {
     checkbox.addEventListener("change", () => {
       if (checkbox.checked) {
-        taskStatuses[index].textContent = "tamamlandı"; // update the corresponding task status text
+        taskStatuses[index].textContent = "tamamlandı"; 
       } else {
-        taskStatuses[index].textContent = "tamamlanmadı"; // update the corresponding task status text
+        taskStatuses[index].textContent = "tamamlanmadı";
       }
     });
   });
